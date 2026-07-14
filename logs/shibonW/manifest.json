@@ -3,7 +3,7 @@
   "team_id": "contest2026_059_0error",
   "github_login": "shibonW",
   "generator": "claude-code-collector@1.2.0",
-  "updated_at": "2026-07-14T03:48:02.066Z",
+  "updated_at": "2026-07-14T14:00:39.645Z",
   "sessions": [
     {
       "session_id": "45cf667c-4010-445f-a5b9-9a81d76b5e5b",
@@ -990,6 +990,30 @@
       "collection_mode": "cli",
       "health": "ok",
       "model": "deepseek-v4-pro"
+    },
+    {
+      "session_id": "08184c6b-c3a9-42f0-bab4-bcf89365e969",
+      "tool": "claude-code",
+      "started_at": "2026-07-14T09:14:37.891Z",
+      "last_event_at": "2026-07-14T09:31:16.046Z",
+      "event_count": 54,
+      "raw_event_count": 69,
+      "file_path": "logs/shibonW/2026-07-14/claude-code__08184c6b-c3a9-42f0-bab4-bcf89365e969.jsonl",
+      "collection_mode": "cli",
+      "health": "ok",
+      "model": "mimo-v2.5-pro"
+    },
+    {
+      "session_id": "e4a8cc01-2896-4746-927e-8efd6f4511b2",
+      "tool": "claude-code",
+      "started_at": "2026-07-14T09:39:21.502Z",
+      "last_event_at": "2026-07-14T14:00:39.643Z",
+      "event_count": 78,
+      "raw_event_count": 139,
+      "file_path": "logs/shibonW/2026-07-14/claude-code__e4a8cc01-2896-4746-927e-8efd6f4511b2.jsonl",
+      "collection_mode": "cli",
+      "health": "ok",
+      "model": "mimo-v2.5-pro"
     }
   ]
 }

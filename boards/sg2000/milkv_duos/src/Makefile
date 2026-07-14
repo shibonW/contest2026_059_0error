@@ -8,6 +8,6 @@ include $(TOPDIR)/Make.defs
 
 RCSRCS = etc/init.d/rc.sysinit etc/init.d/rcS
 
-CSRCS = sg2000_appinit.c
+CSRCS = sg2000_appinit.c gc2083_test.c
 
 include $(TOPDIR)/boards/Board.mk

@@ -157,6 +157,13 @@ void board_late_initialize(void)
   syslog(LOG_INFO, "board_late_initialize: eth init done: %d\n", ret);
 #endif
 
+  /* Initialize GC2083 MCLK test */
+
+  extern void gc2083_bringup(void);
+  syslog(LOG_INFO, "board_late_initialize: gc2083 MCLK test begin\n");
+  gc2083_bringup();
+  syslog(LOG_INFO, "board_late_initialize: gc2083 MCLK test done\n");
+
   /* Perform board-specific initialization */
 
 #ifdef CONFIG_NSH_ARCHINIT
